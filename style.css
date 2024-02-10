@@ -1,0 +1,137 @@
+body{
+   
+    background-color: #952323;
+    
+    
+
+}
+
+h1{
+    font-family: "Great Vibes", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #FFF5E0;
+  text-align: center;
+  height: 20px;
+  font-size: 3rem;
+  
+}
+
+.title{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+   
+    
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.BTN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 15px 25px;
+ 
+}
+button{
+    padding: 15px 25px;
+ border: unset;
+ border-radius: 15px;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #FFF5E0;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+   a{
+    color: #952323;
+    text-decoration: none;
+   }
+
+   .redes {
+    width: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .redes a svg {
+    width: 30px;
+    fill: #ffffff;
+  }
+  
+  .redes .discord {
+    background-color: rgb(0, 60, 255);
+    border-radius: 0 0 10px 0;
+  }
+  
+  .redes .instagram {
+    background: linear-gradient(45deg, #833ab4, #fd1d1d, #f56040);
+    border-radius: 0 10px 0 0;
+  }
+  
+  .redes .github {
+    background-color: rgb(24, 22, 22);
+  }
+  
+  .redes .twitter {
+    background-color: #000000;
+  }
+  
+  .redes .facebook {
+    background-color: #006aff;
+  }
+  
+  .redes a:hover {
+    width: 130%;
+    border-radius: 0 10px 10px 0;
+  }
+  
